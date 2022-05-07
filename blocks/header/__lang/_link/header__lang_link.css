@@ -1,0 +1,21 @@
+.header__lang_link {
+    margin-right: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__lang_link:hover {
+    text-decoration: underline;
+}
+
+.header__lang_link:nth-last-of-type(1) {
+    margin: 0 0;
+}
+
+@media screen and (max-width: 320px) {
+    .header__lang_link {
+        width: 22px;
+        max-height: 20px;
+    }
+}
+

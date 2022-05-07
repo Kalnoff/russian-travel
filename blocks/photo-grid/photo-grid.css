@@ -1,0 +1,25 @@
+.photo-grid {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    line-height: 0;
+    width: 1184px;
+}
+
+@media screen and (max-width: 1024px) {
+    .photo-grid {
+        width: 928px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        width: calc(100% - 2*24px);
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        width: calc(100% - 2*16px);
+    }
+  }

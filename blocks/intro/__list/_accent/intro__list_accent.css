@@ -1,0 +1,8 @@
+.intro__list_accent {
+    font-weight: 900;
+    font-family: 'Inter';
+    font-size: 12px;
+    line-height: 18px;
+/* or 150% */
+    color: #FFF;
+}
