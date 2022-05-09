@@ -11,13 +11,13 @@
     }
   }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 939px) {
     .places {
         max-width: calc(100% - 2*24px);
     }
   }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 691px) {
     .places {
         max-width: 100%;
         padding-top: 0;
