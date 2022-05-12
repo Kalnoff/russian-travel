@@ -1,23 +1,11 @@
 .intro__wrapper {
     display: flex;
     flex-direction: column;
-    width: calc(100% - 2*148px);
+    max-width: 690px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 400px) {
     .intro__wrapper {
-        width: 928px;
-    }
-  }
-
-@media screen and (max-width: 939px) {
-    .intro__wrapper {
-        width: calc(100% - 2*24px);
-    }
-  }
-
-@media screen and (max-width: 691px) {
-    .intro__wrapper {
-        width: calc(100% - 2*16px);
+        width: 288px;
     }
   }

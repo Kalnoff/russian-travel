@@ -4,8 +4,16 @@
     padding: 0;
 }
 
-@media screen and (max-width: 691px) {
+@media screen and (max-width: 800px) {
+    .footer__list {
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 535px) {
     .footer__list {
         flex-direction: column;
+        height: 310px;
+        justify-content: space-between;
     }
 }

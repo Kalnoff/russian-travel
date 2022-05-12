@@ -2,7 +2,7 @@
     display: flex;
     flex-basis: 719px;
     justify-content: end;
-    font-family: 'Inter';
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -11,8 +11,33 @@
     color: #FFF;
 }
 
-@media screen and (max-width: 691px) {
+@media screen and (max-width: 800px) {
     .footer__copyright {
         justify-content: start;
+        display: flex;
+        font-family: 'Inter', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    /* identical to box height, or 114% */
+        color: #FFF;
+        flex-basis: 200px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 535px) {
+    .footer__copyright {
+        justify-content: start;
+        display: flex;
+        flex-basis: 0px;
+        font-family: 'Inter', Arial, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+    /* identical to box height, or 114% */
+        color: #FFF;
     }
 }

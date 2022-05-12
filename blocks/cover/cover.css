@@ -1,7 +1,5 @@
 .cover {
-    font-family: 'Inter';
-    margin: 92px 0 92px 0;
-    min-height: 740px;
+    width: calc(100% - 2*48px);
 }
 
 .cover__background:hover::before {
@@ -10,11 +8,11 @@
 
 @media screen and (max-width: 1024px) {
     .cover {
-        min-height: 640px;
+        width: 100%;
     }
   }
 
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 800px) {
     .cover {
         min-height: 480px;
     }

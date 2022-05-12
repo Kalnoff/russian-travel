@@ -2,37 +2,39 @@
     display: grid;
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
-    padding-bottom: 80px;
 }
 
-.places__card:nth-last-of-type(3) {
-    margin: 0 0 80px;
-}
+.places__card:nth-last-of-type(1){
+    padding-bottom: 0;
+} 
 
 @media screen and (max-width: 1024px) {
     .places__card {
         grid-template-columns: 440px 1fr;
-        gap: 48px 32px;
+        gap: 35px 32px;
     }
 }
 
-
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 800px) {
     .places__card {
         grid-template-columns: 340px 1fr;
-        gap: 48px 28px;
-        padding-bottom: 73px;
+        column-gap: 28px;
     }
-  }
 
-@media screen and (max-width: 691px) {
+    .places__card:nth-last-of-type(1){
+        padding-bottom: 0;
+    } 
+}
+
+
+@media screen and (max-width: 535px) {
     .places__card {
         grid-template-columns: 100%;
-        gap: 16px;
+        gap: 0px;
         padding-bottom: 50px;
     }
 
     .places__card:nth-last-of-type(3) {
         margin: 0;
     }
-  }
+}

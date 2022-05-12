@@ -2,24 +2,23 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: calc(100% - 2*148px);
+    max-width: 984px;
     text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1024px) {
     .lead {
         width: calc(100% - 2*48px);
     }
   }
 
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 800px) {
     .lead {
         max-width: 100%;
-        margin-top: 48px;
     }
   }
 
-@media screen and (max-width: 691px) {
+@media screen and (max-width: 535px) {
     .lead {
         min-width: 320px;
         margin: 0;

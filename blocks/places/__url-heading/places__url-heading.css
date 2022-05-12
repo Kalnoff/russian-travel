@@ -1,5 +1,5 @@
-.places__website_url-heading {
-    font-family: 'Inter';
+.places__url-heading {
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -11,7 +11,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-    .places__website_url-heading {
+    .places__url-heading {
         max-width: calc(100% - 2*24px);
         line-height: 1;
     }

@@ -13,14 +13,14 @@
     }
   }
 
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 800px) {
     .photo-grid__container {
         gap: 16px;
     }
   }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 535px) {
     .photo-grid__container {
         gap: 12px;
         width: 288px;

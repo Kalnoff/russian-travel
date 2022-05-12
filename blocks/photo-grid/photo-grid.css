@@ -12,13 +12,13 @@
     }
   }
 
-@media screen and (max-width: 939px) {
+@media screen and (max-width: 800px) {
     .photo-grid {
         max-width: calc(100% - 2*24px);
     }
   }
 
-@media screen and (max-width: 691px) {
+@media screen and (max-width: 535px) {
     .photo-grid {
         max-width: calc(100% - 2*16px);
     }
