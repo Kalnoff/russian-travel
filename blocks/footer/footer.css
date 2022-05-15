@@ -7,14 +7,12 @@
 @media screen and (max-width: 800px) {
     .footer {
         width: calc(100% - 2*24px);
-        height: 18px;
     }
 }
 
 @media screen and (max-width: 535px) {
     .footer {
         flex-direction: column;
-        height: 310px;
         width: 186px;
         margin: 0 118px 0 24px;
     }

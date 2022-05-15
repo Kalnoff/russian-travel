@@ -29,6 +29,7 @@
 @media screen and (max-width: 535px) {
     .places__card {
         grid-template-columns: 100%;
-        gap: 0px;
+        gap: 3px;
+        margin: 0 0 -17px;
     }
 }
