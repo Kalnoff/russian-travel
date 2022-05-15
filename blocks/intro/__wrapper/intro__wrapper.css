@@ -3,9 +3,3 @@
     flex-direction: column;
     max-width: 690px;
 }
-
-@media screen and (max-width: 400px) {
-    .intro__wrapper {
-        width: 288px;
-    }
-  }

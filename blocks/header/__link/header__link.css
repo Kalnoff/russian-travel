@@ -1,7 +1,11 @@
 .header__link {
     text-decoration: none;
     color: #fff;
-    margin: 0 18px 0 0;
+}
+
+.header__link:hover {
+    transition: opacity .2s linear;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 535px) {

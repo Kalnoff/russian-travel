@@ -10,6 +10,12 @@
     }
 }
 
+@media screen and (max-width: 598px) {
+    .footer__list {
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width: 535px) {
     .footer__list {
         flex-direction: column;

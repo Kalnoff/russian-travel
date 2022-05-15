@@ -1,6 +1,5 @@
 .header__lang {
     display: flex;
-    padding: 1px 1px 4px 0;
     margin: 0;
     list-style-type: none;
     align-items: flex-end;
@@ -8,13 +7,13 @@
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
-    width: 59px;
+    line-height: 37px;
+    padding: 0;
 }
 
 @media screen and (max-width: 535px) {
     .header__lang {
         font-size: 18px;
-        line-height: 20px;
+        line-height: 33px;
     }
 }

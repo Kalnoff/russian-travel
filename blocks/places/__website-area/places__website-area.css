@@ -1,7 +1,6 @@
 .places__website-area {
     align-self: end;
     margin: 0;
-    height: 46px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -10,7 +9,6 @@
 @media screen and (max-width: 800px) {
     .places__website-area {
         max-width: calc(100% - 32px);
-        padding-left: 16px;
     }
 }
 

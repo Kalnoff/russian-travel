@@ -3,16 +3,15 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
-/* identical to box height, or 100% */
+    line-height: 13px;
     letter-spacing: 2px;
     color: #AAA;
-    margin: 0;
+    margin: 0 0 12px;
 }
 
 @media screen and (max-width: 1024px) {
     .places__url-heading {
-        max-width: calc(100% - 2*24px);
-        line-height: 1;
+        display: flex;
+        align-self: start;
     }
   }

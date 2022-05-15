@@ -4,11 +4,10 @@
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
-/* identical to box height, or 107% */
     color: #FFFF;
     max-width: 690px;
     min-width: 288px;
-    margin: 0 0 40px;
+    margin: 0 0 40px 0;
 }
 
 @media screen and (max-width: 535px) {
