@@ -19,9 +19,9 @@
     }
   }
 
-@media screen and (max-width: 535px) {
-    .places {
-        max-width: 100%;
-        row-gap: 0px;
+@media screen and (max-width: 585px) {
+            .places {
+                max-width: 100%;
+                row-gap: 32px;
     }
-  }
+ }
